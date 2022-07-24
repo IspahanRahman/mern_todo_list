@@ -1,0 +1,24 @@
+POST http://localhost:8080/api/item
+Content-Type: application/json
+
+{
+    "item":"Need to study about react and node.js"
+}
+
+###
+
+GET http://localhost:8080/api/items
+Content-Type: application/json
+
+
+###
+PUT  http://localhost:8080/api/item/62d8cd3e9ac0a8bef0bc5a9e
+Content-Type: application/json
+
+{
+    "item":"Server side is almost done except the delete feature . Have to do frontend"
+}
+
+###
+DELETE   http://localhost:8080/api/item/62d8cd8c9ac0a8bef0bc5aa2
+Content-Type: application/json
